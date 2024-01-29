@@ -5,7 +5,7 @@ interface PropType {
 }
 
 const test = (props: PropType) => {
-  return <div>{props.posts}</div>;
+  return <div>cxzcxzc{props.posts}</div>;
 };
 
 export async function getStaticProps() {
